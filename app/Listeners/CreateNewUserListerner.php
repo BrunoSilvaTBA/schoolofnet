@@ -8,9 +8,8 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 
 class CreateNewUserListerner
 {
-
     public function handle(UserEvent $event)
     {
-        \Log::info('Usuário criado com sucesso.')
+        \Log::info('Usuário criado com sucesso.');
     }
 }
